@@ -1,0 +1,22 @@
+[alias]
+        a = add -p
+        co = checkout
+        d = diff
+        lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+        st = status
+
+        # Remove everything not under version control
+        wipe = clean -fdx
+
+        # Statistics
+        stat-commits-by-author = shortlog -sn
+[color]
+        ui = auto
+[core]
+        editor = vim
+        excludesfile = ~/.gitignore_global
+[push]
+        default = simple
+[user]
+        name = Luke Horvat
+        email = lukehorvat@gmail.com
