@@ -23,7 +23,7 @@ install_dotfile() {
   echo " ~ Linked $source to $dest"
 }
 
-# sublime text 2
+# Sublime Text 2.
 if [ "$(uname -s)" = "Darwin" ]; then
   sublime_dir="$HOME/Library/Application Support/Sublime Text 2"
 elif [ "$(uname -s)" = "Linux" ]; then
@@ -36,8 +36,8 @@ install_dotfile "$dotfiles_dir/sublime-settings"     "$sublime_dir/Packages/User
 install_dotfile "$dotfiles_dir/sublime-osx-keymap"   "$sublime_dir/Packages/User/Default (OSX).sublime-keymap"
 install_dotfile "$dotfiles_dir/sublime-linux-keymap" "$sublime_dir/Packages/User/Default (Linux).sublime-keymap"
 
-# general dotfiles
-files="gitconfig gitignore_global irbrc"
+# General dotfiles.
+files="gitconfig gitignore_global irbrc vimrc"
 for file in $files; do
   install_dotfile "$dotfiles_dir/$file" "$dest_dir/.$file"
 done
