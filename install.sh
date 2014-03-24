@@ -37,7 +37,7 @@ install_dotfile "$dotfiles_dir/sublime-osx-keymap"   "$sublime_dir/Packages/User
 install_dotfile "$dotfiles_dir/sublime-linux-keymap" "$sublime_dir/Packages/User/Default (Linux).sublime-keymap"
 
 # General dotfiles.
-files="gitconfig gitignore_global irbrc vimrc"
+files="gitconfig gitignore_global irbrc vimrc zshrc"
 for file in $files; do
   install_dotfile "$dotfiles_dir/$file" "$dest_dir/.$file"
 done
