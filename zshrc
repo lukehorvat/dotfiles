@@ -7,7 +7,7 @@ alias rac="rails c"
 alias rdb="rails db"
 alias thin="nocorrect thin"
 
-plugins=(git ruby rails osx brew sublime postgres)
+plugins=(git ruby rails npm osx brew sublime postgres)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -17,4 +17,4 @@ export PATH=/usr/local/bin:$PATH
 # via EnvPane (an app that makes terminal variables available to non-terminal programs).
 
 # Load rbenv.
-eval "$(rbenv init -)"
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
