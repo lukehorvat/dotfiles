@@ -18,3 +18,6 @@ install rbenv
 install tree
 install wget
 install youtube-dl
+
+# Remove outdated versions from the cellar.
+cleanup
