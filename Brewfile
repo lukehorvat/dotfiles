@@ -7,7 +7,7 @@ update
 # Update any already-installed formulae.
 upgrade
 
-# Install non-binary apps (i.e. packaged as source code).
+# Install non-binary (i.e. packaged as source code) apps.
 install android-sdk
 install git
 install gradle
@@ -23,11 +23,19 @@ install youtube-dl
 # Install binary apps (using Homebrew-cask).
 tap phinze/homebrew-cask || true
 install brew-cask
+cask install firefox
+cask install flash
 cask install flux
+cask install gitifier
+cask install google-chrome
 cask install hipchat
+cask install intellij-idea-ce
+cask install java
 cask install spotify
 cask install steam
 cask install sublime-text
+cask install utorrent
+cask install virtualbox
 cask install vlc
 
 # Remove outdated versions of apps from the cellar.
