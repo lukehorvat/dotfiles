@@ -3,6 +3,8 @@ dotfiles
 
 My dotfiles for UNIX-based operating systems.
 
+![](http://i.imgur.com/Hw06YZ1.gif)
+
 To install, do:
 
 ```bash
