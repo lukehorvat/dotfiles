@@ -21,3 +21,6 @@ install youtube-dl
 
 # Remove outdated versions from the cellar.
 cleanup
+
+# Check that everything is okay. Probably not entirely necessary, but can't hurt...
+doctor
