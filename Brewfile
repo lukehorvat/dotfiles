@@ -23,6 +23,8 @@ install youtube-dl
 # Install binary apps (using Homebrew-cask).
 tap phinze/homebrew-cask || true
 install brew-cask
+cask install cyberduck
+cask install dropbox
 cask install firefox
 cask install flash
 cask install flux
@@ -31,6 +33,7 @@ cask install google-chrome
 cask install hipchat
 cask install intellij-idea-ce
 cask install java
+cask install sequel-pro
 cask install spotify
 cask install steam
 cask install sublime-text
@@ -38,7 +41,7 @@ cask install utorrent
 cask install virtualbox
 cask install vlc
 
-# Remove outdated versions of apps from the cellar.
+# Uninstall any outdated versions of apps that may be lingering.
 cleanup
 
 # Check that everything is okay. Probably not entirely necessary, but can't hurt...
