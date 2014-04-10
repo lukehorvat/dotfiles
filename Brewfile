@@ -33,6 +33,7 @@ cask install google-chrome
 cask install hipchat
 cask install intellij-idea-ce
 cask install java
+cask install ngrok
 cask install sequel-pro
 cask install spotify
 cask install steam
