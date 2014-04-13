@@ -5,10 +5,10 @@
         lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
         st = status
 
-        # Remove everything not under version control
-        wipe = clean -fdx
+        # Remove all changes and go back to a clean slate.
+        wipe = "!git reset --hard; git clean -fd"
 
-        # Statistics
+        # Statistics.
         stat-commits-by-author = shortlog -sn
 [color]
         ui = auto
