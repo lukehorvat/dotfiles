@@ -5,7 +5,7 @@ ZSH_THEME="robbyrussell"
 alias git="nocorrect git"
 alias thin="nocorrect thin"
 
-plugins=(brew git npm osx postgres rails ruby sublime)
+plugins=(brew git heroku npm osx postgres rails ruby sublime)
 
 source $ZSH/oh-my-zsh.sh
 
