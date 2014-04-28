@@ -2,10 +2,12 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 
 # Aliases.
+alias c="$HOME/code"
+alias dots="c; dotfiles; gst"
 alias git="nocorrect git"
 alias thin="nocorrect thin"
 
-plugins=(brew git heroku npm osx postgres rails ruby sublime)
+plugins=(brew brew-cask git heroku npm osx postgres rails ruby sublime)
 
 source $ZSH/oh-my-zsh.sh
 
