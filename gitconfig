@@ -8,6 +8,12 @@
         # Remove all changes and go back to a clean slate.
         wipe = "!git reset --hard; git clean -fd"
 
+        # Zip up a patch file of all changes since the last commit so I can go home/sleep.
+        pause = "!git add --all; git commit -m 'temp'; git format-patch HEAD~1 --stdout | gzip > patch.gz; git reset HEAD~1 --hard"
+
+        # Apply the changes in the aforementioned patch file when it's time to continue the work.
+        resume = "!gzip -cd patch.gz | git apply; rm patch.gz"
+
         # Statistics.
         stat-commits-by-author = shortlog -sn
 [color]
