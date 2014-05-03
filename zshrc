@@ -1,5 +1,5 @@
 ZSH=$HOME/.oh-my-zsh
-ZSH_THEME="robbyrussell"
+ZSH_THEME="af-magic"
 
 # Aliases.
 alias c="$HOME/code"
