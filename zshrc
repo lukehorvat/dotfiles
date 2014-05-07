@@ -7,7 +7,7 @@ alias dots="c; dotfiles; gst"
 alias git="nocorrect git"
 alias thin="nocorrect thin"
 
-plugins=(brew brew-cask git heroku npm osx postgres rails ruby sublime)
+plugins=(atom brew brew-cask git heroku npm osx postgres rails ruby sublime)
 
 source $ZSH/oh-my-zsh.sh
 

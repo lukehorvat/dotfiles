@@ -24,6 +24,7 @@ install youtube-dl
 tap caskroom/homebrew-cask || true
 tap caskroom/versions || true
 install brew-cask
+cask install atom
 cask install cyberduck
 cask install dropbox
 cask install firefox
