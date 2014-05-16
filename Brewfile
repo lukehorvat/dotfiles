@@ -24,6 +24,7 @@ install youtube-dl
 tap caskroom/homebrew-cask || true
 tap caskroom/versions || true
 install brew-cask
+cask install android-studio
 cask install atom
 cask install cyberduck
 cask install dropbox
@@ -33,7 +34,6 @@ cask install flux
 cask install gitifier
 cask install google-chrome
 cask install hipchat
-cask install intellij-idea-community-eap
 cask install java
 cask install ngrok
 cask install sequel-pro
