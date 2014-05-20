@@ -1,4 +1,0 @@
-[
-  { "keys": ["ctrl+t", "ctrl+t"],  "command": "toggle_setting", "args": {"setting": "trim_trailing_white_space_on_save"} },
-  { "keys": ["ctrl+."], "command": "reveal_in_side_bar" }
-]

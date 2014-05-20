@@ -26,19 +26,6 @@ install_dotfile() {
 # Homebrew.
 install_dotfile "$dotfiles_dir/Brewfile" "$dest_dir/Brewfile"
 
-# Sublime Text 2.
-if [ "$(uname -s)" = "Darwin" ]; then
-  sublime_dir="$HOME/Library/Application Support/Sublime Text 2"
-elif [ "$(uname -s)" = "Linux" ]; then
-  sublime_dir="$HOME/.config/sublime-text-2"
-else
-  echo "Unsupported operating system."
-  exit 1
-fi
-install_dotfile "$dotfiles_dir/sublime-settings"     "$sublime_dir/Packages/User/Preferences.sublime-settings"
-install_dotfile "$dotfiles_dir/sublime-osx-keymap"   "$sublime_dir/Packages/User/Default (OSX).sublime-keymap"
-install_dotfile "$dotfiles_dir/sublime-linux-keymap" "$sublime_dir/Packages/User/Default (Linux).sublime-keymap"
-
 # General dotfiles.
 files="gitconfig gitignore_global irbrc npmrc vimrc zshrc"
 for file in $files; do

@@ -39,7 +39,6 @@ cask install ngrok
 cask install sequel-pro
 cask install spotify
 cask install steam
-cask install sublime-text
 cask install utorrent
 cask install virtualbox
 cask install vlc
