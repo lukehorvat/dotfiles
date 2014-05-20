@@ -23,13 +23,12 @@ install_dotfile() {
   echo " ~ Linked $source to $dest"
 }
 
-# Homebrew.
 install_dotfile "$dotfiles_dir/Brewfile" "$dest_dir/Brewfile"
-
-# General dotfiles.
-files="gitconfig gitignore_global irbrc npmrc vimrc zshrc"
-for file in $files; do
-  install_dotfile "$dotfiles_dir/$file" "$dest_dir/.$file"
-done
+install_dotfile "$dotfiles_dir/gitconfig" "$dest_dir/.gitconfig"
+install_dotfile "$dotfiles_dir/gitignore_global" "$dest_dir/.gitignore_global"
+install_dotfile "$dotfiles_dir/irbrc" "$dest_dir/.irbrc"
+install_dotfile "$dotfiles_dir/npmrc" "$dest_dir/.npmrc"
+install_dotfile "$dotfiles_dir/vimrc" "$dest_dir/.vimrc"
+install_dotfile "$dotfiles_dir/zshrc" "$dest_dir/.zshrc"
 
 printf "\nInstallation complete.\n"
