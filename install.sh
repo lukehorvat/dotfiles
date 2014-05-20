@@ -8,6 +8,7 @@ backups_dir="$dest_dir/dotfiles_old/"
 
 set -e
 
+rm -rf "$backups_dir"
 mkdir -p "$backups_dir"
 
 install_dotfile() {
