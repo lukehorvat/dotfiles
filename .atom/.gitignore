@@ -1,0 +1,5 @@
+.node-gyp
+.npm
+compile-cache
+dev
+storage
