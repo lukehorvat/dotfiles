@@ -23,12 +23,13 @@ install_dotfile() {
   echo "Linked $source to $dest"
 }
 
-install_dotfile "$dotfiles_dir/Brewfile" "$HOME/Brewfile"
+install_dotfile "$dotfiles_dir/.atom" "$HOME/.atom"
 install_dotfile "$dotfiles_dir/.gitconfig" "$HOME/.gitconfig"
 install_dotfile "$dotfiles_dir/.gitignore_global" "$HOME/.gitignore_global"
 install_dotfile "$dotfiles_dir/.irbrc" "$HOME/.irbrc"
 install_dotfile "$dotfiles_dir/.npmrc" "$HOME/.npmrc"
 install_dotfile "$dotfiles_dir/.vimrc" "$HOME/.vimrc"
 install_dotfile "$dotfiles_dir/.zshrc" "$HOME/.zshrc"
+install_dotfile "$dotfiles_dir/Brewfile" "$HOME/Brewfile"
 
 printf "\nInstallation complete.\n"

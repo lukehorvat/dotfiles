@@ -1,0 +1,21 @@
+'editor':
+  'fontSize': 11
+  'showInvisibles': true
+  'preferredLineLength': 150
+  'showIndentGuide': true
+'core':
+  'themes': [
+    'atom-light-ui'
+    'atom-light-syntax'
+  ]
+  'disabledPackages': [
+    'metrics'
+    'exception-reporting'
+  ]
+  'projectHome': '~/code'
+'exception-reporting': {}
+'release-notes':
+  'viewedVersion': '0.95.0'
+'welcome':
+  'showOnStartup': false
+'metrics': {}
