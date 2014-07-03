@@ -19,3 +19,7 @@
 'welcome':
   'showOnStartup': false
 'metrics': {}
+'bracket-matcher':
+  'autocompleteBrackets': false
+  'autocompleteSmartQuotes': false
+  'wrapSelectionsInBrackets': false
