@@ -9,6 +9,7 @@ upgrade
 
 # Install non-binary (i.e. packaged as source code) apps.
 install android-sdk
+install ansible
 install git
 install gradle
 install heroku-toolbelt
@@ -40,6 +41,7 @@ cask install sequel-pro
 cask install spotify
 cask install steam
 cask install utorrent
+cask install vagrant
 cask install virtualbox
 cask install vlc
 
