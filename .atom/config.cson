@@ -1,8 +1,10 @@
 'editor':
-  'fontSize': 11
+  'fontSize': 12
   'showInvisibles': true
   'preferredLineLength': 150
+  'lineHeight': 1.8
   'showIndentGuide': true
+  'normalizeIndentOnPaste': false
 'core':
   'themes': [
     'atom-light-ui'
@@ -13,6 +15,7 @@
     'exception-reporting'
   ]
   'projectHome': '~/code'
+  'useReactEditor': true
 'exception-reporting': {}
 'release-notes':
   'viewedVersion': '0.95.0'
