@@ -13,6 +13,8 @@
   'disabledPackages': [
     'metrics'
     'exception-reporting'
+    'feedback'
+    'background-tips'
   ]
   'projectHome': '~/code'
   'useReactEditor': true
