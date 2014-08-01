@@ -32,6 +32,7 @@ cask install dropbox
 cask install firefox
 cask install flash
 cask install flux
+cask install gimp
 cask install gitifier
 cask install google-chrome
 cask install hipchat
