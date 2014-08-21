@@ -35,10 +35,10 @@ cask install flux
 cask install gimp
 cask install gitifier
 cask install google-chrome
-cask install hipchat
 cask install java
 cask install ngrok
 cask install sequel-pro
+cask install slack
 cask install spotify
 cask install steam
 cask install utorrent
