@@ -10,6 +10,7 @@ upgrade
 # Install non-binary (i.e. packaged as source code) apps.
 install android-sdk
 install ansible
+install dos2unix
 install git
 install gradle
 install heroku-toolbelt
