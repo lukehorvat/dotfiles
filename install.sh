@@ -30,6 +30,6 @@ install_dotfile "$dotfiles_dir/.irbrc" "$HOME/.irbrc"
 install_dotfile "$dotfiles_dir/.npmrc" "$HOME/.npmrc"
 install_dotfile "$dotfiles_dir/.vimrc" "$HOME/.vimrc"
 install_dotfile "$dotfiles_dir/.zshrc" "$HOME/.zshrc"
-install_dotfile "$dotfiles_dir/Brewfile" "$HOME/Brewfile"
+install_dotfile "$dotfiles_dir/brew.sh" "$HOME/brew.sh"
 
 printf "\nInstallation complete.\n"
