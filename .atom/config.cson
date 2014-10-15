@@ -28,3 +28,5 @@
   'autocompleteBrackets': false
   'autocompleteSmartQuotes': false
   'wrapSelectionsInBrackets': false
+'git-diff':
+  'showIconsInEditorGutter': true
