@@ -6,6 +6,7 @@ alias c="$HOME/code"
 alias dots="c; dotfiles; gst"
 alias git="nocorrect git"
 alias thin="nocorrect thin"
+alias gw="gulp watch"
 
 plugins=(atom bower brew brew-cask git heroku npm osx postgres rails ruby vagrant)
 
