@@ -40,6 +40,7 @@ brew cask install java
 brew cask install ngrok
 brew cask install sequel-pro
 brew cask install slack
+brew cask install snes9x
 brew cask install spotify
 brew cask install steam
 brew cask install utorrent
