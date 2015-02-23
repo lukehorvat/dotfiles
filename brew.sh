@@ -43,7 +43,7 @@ brew cask install slack
 brew cask install snes9x
 brew cask install spotify
 brew cask install steam
-brew cask install utorrent
+brew cask install transmission
 brew cask install vagrant
 brew cask install virtualbox
 brew cask install vlc
