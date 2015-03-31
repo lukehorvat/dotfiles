@@ -3,6 +3,10 @@
 #
 # You can create a new snippet in this file by typing "snip" and then hitting
 # tab.
+'.source.jsx':
+  'Console log':
+    'prefix': 'log'
+    'body': 'console.log($1);'
 
 '.source.coffee':
   'Console log':
