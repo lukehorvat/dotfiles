@@ -37,6 +37,6 @@
     """
 
 '.source.coffee':
-  'Console log':
+  'console.log':
     'prefix': 'log'
     'body': 'console.log $1'
