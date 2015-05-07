@@ -1,11 +1,16 @@
 #!/usr/bin/env bash
 # This script installs apps via Homebrew (and also updates existing installations).
 
+# Ensure alternative formula repositories are accessible.
+brew tap caskroom/homebrew-cask || true
+brew tap caskroom/versions || true
+brew tap homebrew/dupes || true
+
 # Make sure Homebrew is fully updated first.
 brew update
 
 # Update any already-installed formulae.
-brew upgrade
+brew upgrade --all
 
 # Install non-binary (i.e. packaged as source code) apps.
 brew install ansible
@@ -21,8 +26,6 @@ brew install wget
 brew install youtube-dl
 
 # Install binary apps (using Homebrew-cask).
-brew tap caskroom/homebrew-cask || true
-brew tap caskroom/versions || true
 brew install brew-cask
 brew cask install atom
 brew cask install cyberduck
