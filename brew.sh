@@ -6,7 +6,7 @@ brew tap caskroom/homebrew-cask || true
 brew tap caskroom/versions || true
 brew tap homebrew/dupes || true
 
-# Make sure Homebrew is fully updated first.
+# Make sure Homebrew is fully updated.
 brew update
 
 # Update any already-installed formulae.

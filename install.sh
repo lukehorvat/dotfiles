@@ -31,5 +31,6 @@ install_dotfile "$dotfiles_dir/.npmrc" "$HOME/.npmrc"
 install_dotfile "$dotfiles_dir/.vimrc" "$HOME/.vimrc"
 install_dotfile "$dotfiles_dir/.zshrc" "$HOME/.zshrc"
 install_dotfile "$dotfiles_dir/brew.sh" "$HOME/brew.sh"
+install_dotfile "$dotfiles_dir/npm.sh" "$HOME/npm.sh"
 
 printf "\nInstallation complete.\n"
