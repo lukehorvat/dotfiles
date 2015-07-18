@@ -5,6 +5,7 @@
 npm cache clean
 
 npm install -g npm # Update npm itself.
+npm install -g app-path-cli
 npm install -g babel
 npm install -g bower
 npm install -g coffee-script
