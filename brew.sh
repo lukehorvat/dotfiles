@@ -14,6 +14,7 @@ brew upgrade --all
 
 # Install non-binary (i.e. packaged as source code) apps.
 brew install ansible
+brew install direnv
 brew install dos2unix
 brew install git
 brew install gradle
