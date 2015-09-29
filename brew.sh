@@ -13,7 +13,6 @@ brew update
 brew upgrade --all
 
 # Install non-binary (i.e. packaged as source code) apps.
-brew install ansible
 brew install direnv
 brew install dos2unix
 brew install git
@@ -37,8 +36,8 @@ brew cask install flux
 brew cask install gimp
 brew cask install google-chrome
 brew cask install java
+brew cask install limechat
 brew cask install ngrok
-brew cask install sequel-pro
 brew cask install slack
 brew cask install snes9x
 brew cask install spotify

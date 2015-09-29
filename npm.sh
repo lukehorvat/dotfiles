@@ -9,6 +9,7 @@ npm install -g app-path-cli
 npm install -g babel
 npm install -g bower
 npm install -g coffee-script
+npm install -g get-wanted-dependencies
 npm install -g gifify # Also see: https://gist.github.com/paulirish/b6cf161009af0708315c
 npm install -g gulp
 npm install -g http-server
