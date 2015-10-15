@@ -15,10 +15,9 @@ source $ZSH/oh-my-zsh.sh
 # For Homebrew to work, prepend the following to the PATH.
 export PATH=/usr/local/bin:$PATH
 # Note: All other environment variables are configured in System Preferences > Environment Variables,
-# via EnvPane (an app that makes terminal variables available to non-terminal programs).
+# via EnvPane (a tool that makes terminal variables available to non-terminal apps).
 
-# Load rbenv.
+# Initialise a few apps.
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
-
-# Load direnv.
 if which direnv > /dev/null; then eval "$(direnv hook zsh)"; fi
+if which boot2docker > /dev/null; then eval "$(boot2docker shellinit 2>/dev/null)"; fi
