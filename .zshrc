@@ -7,8 +7,9 @@ alias dots="c; dotfiles; gst"
 alias git="nocorrect git"
 alias thin="nocorrect thin"
 alias gw="gulp watch"
+alias a="atom"
 
-plugins=(atom bower brew brew-cask git heroku npm osx postgres rails ruby vagrant)
+plugins=(bower brew brew-cask git heroku npm osx postgres rails ruby vagrant)
 
 source $ZSH/oh-my-zsh.sh
 
