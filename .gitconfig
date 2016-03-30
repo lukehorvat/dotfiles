@@ -14,6 +14,9 @@
         # Apply the changes in the aforementioned patch file when it's time to continue the work.
         resume = "!gzip -cd patch.gz | git apply; rm patch.gz"
 
+        # Ignore a file locally without touching any gitignores.
+        ignore = "!sh -c 'echo $1 >> .git/info/exclude; echo $1 → .git/info/exclude' -"
+
         # Statistics.
         stat-commits-by-author = shortlog -sn
 [color]
