@@ -5,10 +5,6 @@
 npm cache clean
 
 npm install -g npm # Update npm itself.
-npm install -g app-path-cli
-npm install -g babel
-npm install -g bower
-npm install -g coffee-script
 npm install -g get-wanted-dependencies
 npm install -g gifify # Also see: https://gist.github.com/paulirish/b6cf161009af0708315c
 npm install -g gulp
@@ -17,6 +13,7 @@ npm install -g internal-ip
 npm install -g is-online
 npm install -g is-up
 npm install -g json
+npm install -g module
 npm install -g nodemon
 npm install -g npm-me
 npm install -g npm-popular
