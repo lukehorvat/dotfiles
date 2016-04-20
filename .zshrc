@@ -21,4 +21,4 @@ export PATH=/usr/local/bin:$PATH
 # Initialise a few apps.
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 if which direnv > /dev/null; then eval "$(direnv hook zsh)"; fi
-if which boot2docker > /dev/null; then eval "$(boot2docker shellinit 2>/dev/null)"; fi
+if which docker-machine > /dev/null; then eval "$(docker-machine env default)"; fi
