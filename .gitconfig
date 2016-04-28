@@ -17,6 +17,12 @@
         # Ignore a file locally without touching any gitignores.
         ignore = "!sh -c 'echo $1 >> .git/info/exclude; echo $1 → .git/info/exclude' -"
 
+        # Redo the last commit and include the currently staged files.
+        recommit = "!msg=$(git log -1 --pretty=%B); git reset --soft HEAD~1; echo $msg | git commit -F -;"
+
+        # Redo the last commit and persist it to origin.
+        repush = "!git recommit; git push --force"
+
         # Statistics.
         stat-commits-by-author = shortlog -sn
 [color]
