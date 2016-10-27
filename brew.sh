@@ -2,15 +2,16 @@
 # This script installs apps via Homebrew (and also updates existing installations).
 
 # Ensure alternative formula repositories are accessible.
-brew tap caskroom/homebrew-cask || true
+brew tap caskroom/cask || true
 brew tap caskroom/versions || true
+brew tap caskroom/fonts || true
 brew tap homebrew/dupes || true
 
 # Make sure Homebrew is fully updated.
 brew update
 
 # Update any already-installed formulae.
-brew upgrade --all
+brew upgrade
 
 # Install non-binary (i.e. packaged as source code) apps.
 brew install direnv
@@ -25,8 +26,7 @@ brew install tree
 brew install wget
 brew install youtube-dl
 
-# Install binary apps (using Homebrew-cask).
-brew install brew-cask
+# Install binary apps (using Homebrew Cask).
 brew cask install atom
 brew cask install cyberduck
 brew cask install dropbox
@@ -48,7 +48,8 @@ brew cask install virtualbox
 brew cask install vlc
 
 # Uninstall any outdated versions of apps that may be lingering.
-brew cleanup
+brew cleanup --prune=10
+brew cask cleanup --outdated
 
 # Check that everything is okay. Probably not entirely necessary, but can't hurt...
 brew doctor
