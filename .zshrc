@@ -14,7 +14,7 @@ plugins=(bower brew brew-cask git heroku npm osx postgres rails ruby vagrant)
 source $ZSH/oh-my-zsh.sh
 
 # For Homebrew to work, prepend the following to the PATH.
-export PATH=/usr/local/bin:$PATH
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 # Note: All other environment variables are configured in System Preferences > Environment Variables,
 # via EnvPane (a tool that makes terminal variables available to non-terminal apps).
 
