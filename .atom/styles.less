@@ -1,11 +1,13 @@
-/*
- * This stylesheet is loaded when Atom starts up and is reloaded automatically
- * when it is changed.
- */
-
+// Emphasize directories in tree-view.
 .tree-view {
   .entry.directory > .header {
     font-weight: bold;
     text-decoration: underline;
   }
+}
+
+// Hide replacement text in find-and-replace.
+.results-view {
+  .match { background-color: @background-color-info !important; }
+  .replacement { display: none !important; }
 }
