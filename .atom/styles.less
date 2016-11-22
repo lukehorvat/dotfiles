@@ -1,8 +1,21 @@
-// Emphasize directories in tree-view.
+// Emphasize directories and index files in tree-view.
 .tree-view {
-  .entry.directory > .header {
-    font-weight: bold;
-    text-decoration: underline;
+  .entry {
+    &.directory {
+      > .header {
+        font-weight: bold;
+        text-decoration: underline;
+      }
+    }
+
+    &.file {
+      > span[title="index.js"],
+      > span[title="index.jsx"],
+      > span[title="index.css"],
+      > span[title="index.scss"] {
+        font-style: italic;
+      }
+    }
   }
 }
 
