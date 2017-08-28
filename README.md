@@ -5,10 +5,10 @@ My dotfiles for UNIX-based operating systems.
 
 ![](http://i.imgur.com/Hw06YZ1.gif)
 
-To install, do:
+To install, issue the following commands:
 
 ```bash
-$ git clone https://github.com/lukehorvat/dotfiles.git
+$ git clone git@github.com:lukehorvat/dotfiles.git
 $ cd dotfiles
 $ ./install.sh
 ```
