@@ -38,8 +38,8 @@ brew cask install google-chrome
 brew cask install java
 brew cask install limechat
 brew cask install ngrok
+brew cask install openemu
 brew cask install slack
-brew cask install snes9x
 brew cask install spotify
 brew cask install steam
 brew cask install transmission
