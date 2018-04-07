@@ -3,7 +3,7 @@ dotfiles
 
 My dotfiles for UNIX-based operating systems.
 
-![](http://i.imgur.com/Hw06YZ1.gif)
+![](https://i.imgur.com/ypnHQuE.gif)
 
 To install, issue the following commands:
 
