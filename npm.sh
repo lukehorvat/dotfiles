@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # This script installs/updates global npm packages that are handy to have on the CLI.
-# Sometimes npm can be pretty slow, causing this script to hang halfway through. :(
 
 npm cache clean
 

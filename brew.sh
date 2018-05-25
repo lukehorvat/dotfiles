@@ -16,9 +16,12 @@ brew upgrade
 # Install non-binary (i.e. packaged as source code) apps.
 brew install direnv
 brew install dos2unix
+brew install ffmpeg --with-tools --with-fdk-aac --with-fontconfig --with-freetype --with-libass --with-libvorbis --with-libvpx --with-opus --with-x265
+brew install giflossy # Needed for gifify.
 brew install git
 brew install gradle
 brew install heroku-toolbelt
+brew install imagemagick --with-fontconfig # Needed for gifify.
 brew install node
 brew install postgresql
 brew install rbenv
