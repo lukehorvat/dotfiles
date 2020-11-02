@@ -9,7 +9,7 @@ alias thin="nocorrect thin"
 alias gw="gulp watch"
 alias a="atom"
 
-plugins=(bower brew brew-cask git heroku npm osx postgres rails ruby vagrant)
+plugins=(brew git npm osx postgres)
 
 source $ZSH/oh-my-zsh.sh
 
