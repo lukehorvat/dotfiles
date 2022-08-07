@@ -10,7 +10,7 @@ alias b="if [[ -f Makefile ]]; then make build; else npm run build; fi"
 alias s="if [[ -f Makefile ]]; then make start; else npm start; fi"
 alias t="if [[ -f Makefile ]]; then make test; else npm test; fi"
 
-plugins=(brew git npm osx postgres)
+plugins=(brew git npm macos postgres)
 
 source $ZSH/oh-my-zsh.sh
 
