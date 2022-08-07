@@ -5,9 +5,10 @@ ZSH_THEME="af-magic"
 alias c="$HOME/code"
 alias dots="c; dotfiles; gst"
 alias git="nocorrect git"
-alias thin="nocorrect thin"
-alias gw="gulp watch"
-alias a="atom"
+alias m="make"
+alias b="if [[ -f Makefile ]]; then make build; else npm run build; fi"
+alias s="if [[ -f Makefile ]]; then make start; else npm start; fi"
+alias t="if [[ -f Makefile ]]; then make test; else npm test; fi"
 
 plugins=(brew git npm osx postgres)
 
