@@ -30,7 +30,6 @@ brew install wget
 brew install youtube-dl
 
 # Install binary apps (using Homebrew Cask).
-brew cask install atom
 brew cask install cyberduck
 brew cask install dropbox
 brew cask install firefox

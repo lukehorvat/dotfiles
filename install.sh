@@ -23,7 +23,6 @@ install_dotfile() {
   echo "Linked $source to $dest"
 }
 
-install_dotfile "$dotfiles_dir/.atom" "$HOME/.atom"
 install_dotfile "$dotfiles_dir/.gitconfig" "$HOME/.gitconfig"
 install_dotfile "$dotfiles_dir/.gitignore_global" "$HOME/.gitignore_global"
 install_dotfile "$dotfiles_dir/.irbrc" "$HOME/.irbrc"

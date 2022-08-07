@@ -16,8 +16,6 @@ source $ZSH/oh-my-zsh.sh
 
 # For Homebrew to work, prepend the following to the PATH.
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
-# Note: All other environment variables are configured in System Preferences > Environment Variables,
-# via EnvPane (a tool that makes terminal variables available to non-terminal apps).
 
 # Initialise a few apps.
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
